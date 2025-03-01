@@ -1,9 +1,5 @@
-# Autograd-like Implementation in Python
-
-This repository demonstrates:
-1. **A minimal `Value` class** that tracks data, gradients, and operations for automatic differentiation.  
-2. **Graph visualization** using Graphviz to show the computation graph.  
-3. **A simple MLP** (Multi-Layer Perceptron) to showcase training with forward and backward passes.
+# Micrograd (Autograd-like Implementation in Python)
+This repository contains a simple automatic differentiation engine implemented from scratch using a Value class. It also includes a minimal Multilayer Perceptron (MLP) for demonstration, showing how to perform forward and backward passes as well as basic optimization steps
 
 ## Installation
 ```bash
